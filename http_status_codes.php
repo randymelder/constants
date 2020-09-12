@@ -1,6 +1,6 @@
 <?php
 
-namespace HTTP;
+namespace constants\HTTP;
 class ResponseCode {
     const HTTP_STATUS_CODE_100_CONTINUE = [
       "code" =>   100,
