@@ -2,244 +2,247 @@
 
 namespace constants\HTTP;
 class ResponseCode {
+    const KEY_DESCRIPTION   = 'description';
+    const KEY_CODE          = 'code';
+    
     const HTTP_STATUS_CODE_100_CONTINUE = [
-      "code" =>   100,
-      "description" => "CONTINUE"
+      self::KEY_CODE        =>   100,
+      self::KEY_DESCRIPTION => "CONTINUE"
     ];
     const HTTP_STATUS_CODE_101_SWITCHING_PROTOCOLS = [
-      "code" =>   101,
-      "description" => "SWITCHING PROTOCOLS"
+      self::KEY_CODE        =>   101,
+      self::KEY_DESCRIPTION => "SWITCHING PROTOCOLS"
     ];
     const HTTP_STATUS_CODE_102_PROCESSING = [
-      "code" =>   102,
-      "description" => "PROCESSING"
+      self::KEY_CODE        =>   102,
+      self::KEY_DESCRIPTION => "PROCESSING"
     ];
     const HTTP_STATUS_CODE_200_OK = [
-      "code" =>   200,
-      "description" => "OK"
+      self::KEY_CODE        =>   200,
+      self::KEY_DESCRIPTION => "OK"
     ];
     const HTTP_STATUS_CODE_201_CREATED = [
-      "code" =>   201,
-      "description" => "CREATED"
+      self::KEY_CODE        =>   201,
+      self::KEY_DESCRIPTION => "CREATED"
     ];
     const HTTP_STATUS_CODE_202_ACCEPTED = [
-      "code" =>   202,
-      "description" => "ACCEPTED"
+      self::KEY_CODE        =>   202,
+      self::KEY_DESCRIPTION => "ACCEPTED"
     ];
     const HTTP_STATUS_CODE_203_NON_AUTHORITATIVE_INFORMATION = [
-      "code" =>   203,
-      "description" => "NON-AUTHORITATIVE INFORMATION"
+      self::KEY_CODE        =>   203,
+      self::KEY_DESCRIPTION => "NON-AUTHORITATIVE INFORMATION"
     ];
     const HTTP_STATUS_CODE_204_NO_CONTENT = [
-      "code" =>   204,
-      "description" => "NO CONTENT"
+      self::KEY_CODE        =>   204,
+      self::KEY_DESCRIPTION => "NO CONTENT"
     ];
     const HTTP_STATUS_CODE_205_RESET_CONTENT = [
-      "code" =>   205,
-      "description" => "RESET CONTENT"
+      self::KEY_CODE        =>   205,
+      self::KEY_DESCRIPTION => "RESET CONTENT"
     ];
     const HTTP_STATUS_CODE_206_PARTIAL_CONTENT = [
-      "code" =>   206,
-      "description" => "PARTIAL CONTENT"
+      self::KEY_CODE        =>   206,
+      self::KEY_DESCRIPTION => "PARTIAL CONTENT"
     ];
     const HTTP_STATUS_CODE_207_MULTI_STATUS = [
-      "code" =>   207,
-      "description" => "MULTI-STATUS"
+      self::KEY_CODE        =>   207,
+      self::KEY_DESCRIPTION => "MULTI-STATUS"
     ];
     const HTTP_STATUS_CODE_208_ALREADY_REPORTED = [
-      "code" =>   208,
-      "description" => "ALREADY REPORTED"
+      self::KEY_CODE        =>   208,
+      self::KEY_DESCRIPTION => "ALREADY REPORTED"
     ];
     const HTTP_STATUS_CODE_226_IM_USED = [
-      "code" =>   226,
-      "description" => "IM USED"
+      self::KEY_CODE        =>   226,
+      self::KEY_DESCRIPTION => "IM USED"
     ];
     const HTTP_STATUS_CODE_300_MULTIPLE_CHOICES = [
-      "code" =>   300,
-      "description" => "MULTIPLE CHOICES"
+      self::KEY_CODE        =>   300,
+      self::KEY_DESCRIPTION => "MULTIPLE CHOICES"
     ];
     const HTTP_STATUS_CODE_301_MOVED_PERMANENTLY = [
-      "code" =>   301,
-      "description" => "MOVED PERMANENTLY"
+      self::KEY_CODE        =>   301,
+      self::KEY_DESCRIPTION => "MOVED PERMANENTLY"
     ];
     const HTTP_STATUS_CODE_302_FOUND = [
-      "code" =>   302,
-      "description" => "FOUND"
+      self::KEY_CODE        =>   302,
+      self::KEY_DESCRIPTION => "FOUND"
     ];
     const HTTP_STATUS_CODE_303_SEE_OTHER = [
-      "code" =>   303,
-      "description" => "SEE OTHER"
+      self::KEY_CODE        =>   303,
+      self::KEY_DESCRIPTION => "SEE OTHER"
     ];
     const HTTP_STATUS_CODE_304_NOT_MODIFIED = [
-      "code" =>   304,
-      "description" => "NOT MODIFIED"
+      self::KEY_CODE        =>   304,
+      self::KEY_DESCRIPTION => "NOT MODIFIED"
     ];
     const HTTP_STATUS_CODE_305_USE_PROXY = [
-      "code" =>   305,
-      "description" => "USE PROXY"
+      self::KEY_CODE        =>   305,
+      self::KEY_DESCRIPTION => "USE PROXY"
     ];
     const HTTP_STATUS_CODE_306_ = [
-      "code" =>   306,
-      "description" => "(UNUSED)"
+      self::KEY_CODE        =>   306,
+      self::KEY_DESCRIPTION => "(UNUSED)"
     ];
     const HTTP_STATUS_CODE_307_TEMPORARY_REDIRECT = [
-      "code" =>   307,
-      "description" => "TEMPORARY REDIRECT"
+      self::KEY_CODE        =>   307,
+      self::KEY_DESCRIPTION => "TEMPORARY REDIRECT"
     ];
     const HTTP_STATUS_CODE_308_PERMANENT_REDIRECT = [
-      "code" =>   308,
-      "description" => "PERMANENT REDIRECT"
+      self::KEY_CODE        =>   308,
+      self::KEY_DESCRIPTION => "PERMANENT REDIRECT"
     ];
     const HTTP_STATUS_CODE_400_BAD_REQUEST = [
-      "code" =>   400,
-      "description" => "BAD REQUEST"
+      self::KEY_CODE        =>   400,
+      self::KEY_DESCRIPTION => "BAD REQUEST"
     ];
     const HTTP_STATUS_CODE_401_UNAUTHORIZED = [
-      "code" =>   401,
-      "description" => "UNAUTHORIZED"
+      self::KEY_CODE        =>   401,
+      self::KEY_DESCRIPTION => "UNAUTHORIZED"
     ];
     const HTTP_STATUS_CODE_402_PAYMENT_REQUIRED = [
-      "code" =>   402,
-      "description" => "PAYMENT REQUIRED"
+      self::KEY_CODE        =>   402,
+      self::KEY_DESCRIPTION => "PAYMENT REQUIRED"
     ];
     const HTTP_STATUS_CODE_403_FORBIDDEN = [
-      "code" =>   403,
-      "description" => "FORBIDDEN"
+      self::KEY_CODE        =>   403,
+      self::KEY_DESCRIPTION => "FORBIDDEN"
     ];
     const HTTP_STATUS_CODE_404_NOT_FOUND = [
-      "code" =>   404,
-      "description" => "NOT FOUND"
+      self::KEY_CODE        =>   404,
+      self::KEY_DESCRIPTION => "NOT FOUND"
     ];
     const HTTP_STATUS_CODE_405_METHOD_NOT_ALLOWED = [
-      "code" =>   405,
-      "description" => "METHOD NOT ALLOWED"
+      self::KEY_CODE        =>   405,
+      self::KEY_DESCRIPTION => "METHOD NOT ALLOWED"
     ];
     const HTTP_STATUS_CODE_406_NOT_ACCEPTABLE = [
-      "code" =>   406,
-      "description" => "NOT ACCEPTABLE"
+      self::KEY_CODE        =>   406,
+      self::KEY_DESCRIPTION => "NOT ACCEPTABLE"
     ];
     const HTTP_STATUS_CODE_407_PROXY_AUTHENTICATION_REQUIRED = [
-      "code" =>   407,
-      "description" => "PROXY AUTHENTICATION REQUIRED"
+      self::KEY_CODE        =>   407,
+      self::KEY_DESCRIPTION => "PROXY AUTHENTICATION REQUIRED"
     ];
     const HTTP_STATUS_CODE_408_REQUEST_TIMEOUT = [
-      "code" =>   408,
-      "description" => "REQUEST TIMEOUT"
+      self::KEY_CODE        =>   408,
+      self::KEY_DESCRIPTION => "REQUEST TIMEOUT"
     ];
     const HTTP_STATUS_CODE_409_CONFLICT = [
-      "code" =>   408,
-      "description" => "CONFLICT"
+      self::KEY_CODE        =>   408,
+      self::KEY_DESCRIPTION => "CONFLICT"
     ];
     const HTTP_STATUS_CODE_410_GONE = [
-      "code" =>   410,
-      "description" => "GONE"
+      self::KEY_CODE        =>   410,
+      self::KEY_DESCRIPTION => "GONE"
     ];
     const HTTP_STATUS_CODE_411_LENGTH_REQUIRED = [
-      "code" =>   411,
-      "description" => "LENGTH REQUIRED"
+      self::KEY_CODE        =>   411,
+      self::KEY_DESCRIPTION => "LENGTH REQUIRED"
     ];
     const HTTP_STATUS_CODE_412_PRECONDITION_FAILED = [
-      "code" =>   412,
-      "description" => "PRECONDITION FAILED"
+      self::KEY_CODE        =>   412,
+      self::KEY_DESCRIPTION => "PRECONDITION FAILED"
     ];
     const HTTP_STATUS_CODE_413_PAYLOAD_TOO_LARGE = [
-      "code" =>   413,
-      "description" => "PAYLOAD TOO LARGE"
+      self::KEY_CODE        =>   413,
+      self::KEY_DESCRIPTION => "PAYLOAD TOO LARGE"
     ];
     const HTTP_STATUS_CODE_414_URI_TOO_LONG = [
-      "code" =>   414,
-      "description" => "URI TOO LONG"
+      self::KEY_CODE        =>   414,
+      self::KEY_DESCRIPTION => "URI TOO LONG"
     ];
     const HTTP_STATUS_CODE_415_UNSUPPORTED_MEDIA_TYPE = [
-      "code" =>   415,
-      "description" => "UNSUPPORTED MEDIA TYP"
+      self::KEY_CODE        =>   415,
+      self::KEY_DESCRIPTION => "UNSUPPORTED MEDIA TYP"
     ];
     const HTTP_STATUS_CODE_416_RANGE_NOT_SATISFIABLE = [
-      "code" =>   416,
-      "description" => "RANGE NOT SATISFIABLE"
+      self::KEY_CODE        =>   416,
+      self::KEY_DESCRIPTION => "RANGE NOT SATISFIABLE"
     ];
     const HTTP_STATUS_CODE_417_EXPECTATION_FAILED = [
-      "code" =>   417,
-      "description" => "EXPECTATION FAILED"
+      self::KEY_CODE        =>   417,
+      self::KEY_DESCRIPTION => "EXPECTATION FAILED"
     ];
     const HTTP_STATUS_CODE_421_MISDIRECTED_REQUEST = [
-      "code" =>   421,
-      "description" => "MISDIRECTED REQUEST"
+      self::KEY_CODE        =>   421,
+      self::KEY_DESCRIPTION => "MISDIRECTED REQUEST"
     ];
     const HTTP_STATUS_CODE_422_UNPROCESSABLE_ENTITY = [
-      "code" =>   422,
-      "description" => "UNPROCESSABLE ENTITY"
+      self::KEY_CODE        =>   422,
+      self::KEY_DESCRIPTION => "UNPROCESSABLE ENTITY"
     ];
     const HTTP_STATUS_CODE_423_LOCKED = [
-      "code" =>   423,
-      "description" => "LOCKED"
+      self::KEY_CODE        =>   423,
+      self::KEY_DESCRIPTION => "LOCKED"
     ];
     const HTTP_STATUS_CODE_424_FAILED_DEPENDENCY = [
-      "code" =>   424,
-      "description" => "FAILED DEPENDENCY"
+      self::KEY_CODE        =>   424,
+      self::KEY_DESCRIPTION => "FAILED DEPENDENCY"
     ];
     const HTTP_STATUS_CODE_425_TOO_EARLY = [
-      "code" =>   425,
-      "description" => "TOO EARLY"
+      self::KEY_CODE        =>   425,
+      self::KEY_DESCRIPTION => "TOO EARLY"
     ];
     const HTTP_STATUS_CODE_426_UPGRADE_REQUIRED = [
-      "code" =>   426,
-      "description" => "UPGRADE REQUIRED"
+      self::KEY_CODE        =>   426,
+      self::KEY_DESCRIPTION => "UPGRADE REQUIRED"
     ];
     const HTTP_STATUS_CODE_428_PRECONDITION_REQUIRED = [
-      "code" =>   428,
-      "description" => "PRECONDITION REQUIRED"
+      self::KEY_CODE        =>   428,
+      self::KEY_DESCRIPTION => "PRECONDITION REQUIRED"
     ];
     const HTTP_STATUS_CODE_429_TOO_MANY_REQUESTS = [
-      "code" =>   429,
-      "description" => "TOO MANY REQUEST"
+      self::KEY_CODE        =>   429,
+      self::KEY_DESCRIPTION => "TOO MANY REQUEST"
     ];
     const HTTP_STATUS_CODE_431_REQUEST_HEADER_FIELDS_TOO_LARGE = [
-      "code" =>   431,
-      "description" => "REQUEST HEADER FIELDS TOO LARGE"
+      self::KEY_CODE        =>   431,
+      self::KEY_DESCRIPTION => "REQUEST HEADER FIELDS TOO LARGE"
     ];
     const HTTP_STATUS_CODE_500_INTERNAL_SERVER_ERROR = [
-      "code" =>   500,
-      "description" => "INTERNAL SERVER ERROR"
+      self::KEY_CODE        =>   500,
+      self::KEY_DESCRIPTION => "INTERNAL SERVER ERROR"
     ];
     const HTTP_STATUS_CODE_501_NOT_IMPLEMENTED = [
-      "code" =>   501,
-      "description" => "NOT IMPLEMENTED"
+      self::KEY_CODE        =>   501,
+      self::KEY_DESCRIPTION => "NOT IMPLEMENTED"
     ];
     const HTTP_STATUS_CODE_502_BAD_GATEWAY = [
-      "code" =>   502,
-      "description" => "BAD GATEWAY"
+      self::KEY_CODE        =>   502,
+      self::KEY_DESCRIPTION => "BAD GATEWAY"
     ];
     const HTTP_STATUS_CODE_503_SERVICE_UNAVAILABLE = [
-      "code" =>   503,
-      "description" => "SERVICE UNAVAILABLE"
+      self::KEY_CODE        =>   503,
+      self::KEY_DESCRIPTION => "SERVICE UNAVAILABLE"
     ];
     const HTTP_STATUS_CODE_504_GATEWAY_TIMEOUT = [
-      "code" =>   504,
-      "description" => "GATEWAY TIMEOUT"
+      self::KEY_CODE        =>   504,
+      self::KEY_DESCRIPTION => "GATEWAY TIMEOUT"
     ];
     const HTTP_STATUS_CODE_505_HTTP_VERSION_NOT_SUPPORTED = [
-      "code" =>   505,
-      "description" => "HTTP VERSION NOT SUPPORTED"
+      self::KEY_CODE        =>   505,
+      self::KEY_DESCRIPTION => "HTTP VERSION NOT SUPPORTED"
     ];
     const HTTP_STATUS_CODE_506_VARIANT_ALSO_NEGOTIATES = [
-      "code" =>   506,
-      "description" => "VARIANT ALSO NEGOTIATES"
+      self::KEY_CODE        =>   506,
+      self::KEY_DESCRIPTION => "VARIANT ALSO NEGOTIATES"
     ];
     const HTTP_STATUS_CODE_507_INSUFFICIENT_STORAGE = [
-      "code" =>   507,
-      "description" => "INSUFFICIENT STORAGE"
+      self::KEY_CODE        =>   507,
+      self::KEY_DESCRIPTION => "INSUFFICIENT STORAGE"
     ];
     const HTTP_STATUS_CODE_508_LOOP_DETECTED = [
-      "code" =>   508,
-      "description" => "LOOP DETECTED"
+      self::KEY_CODE        =>   508,
+      self::KEY_DESCRIPTION => "LOOP DETECTED"
     ];
     const HTTP_STATUS_CODE_510_NOT_EXTENDED = [
-      "code" =>   510,
-      "description" => "NOT EXTENDED"
+      self::KEY_CODE        =>   510,
+      self::KEY_DESCRIPTION => "NOT EXTENDED"
     ];
     const HTTP_STATUS_CODE_511_NETWORK_AUTHENTICATION_REQUIRED = [
-      "code" =>   511,
-      "description" => "NETWORK AUTHENTICATION REQUIRED"
+      self::KEY_CODE        =>   511,
+      self::KEY_DESCRIPTION => "NETWORK AUTHENTICATION REQUIRED"
     ];
   }
